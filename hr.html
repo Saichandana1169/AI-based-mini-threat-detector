@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HR Monitoring Panel</title>
+    <link rel="stylesheet" href="hr.css">
+</head>
+<body onload="loadHR()">
+
+<div class="container">
+    <h1>HR Monitoring Panel</h1>
+
+    <button class="clear-btn" onclick="clearLogs()">🗑 Clear All Logs</button>
+
+    <table id="hrTable">
+        <tr>
+            <th>User</th>
+            <th>File</th>
+            <th>Size (KB)</th>
+            <th>IP</th>
+            <th>Browser</th>
+            <th>Time</th>
+            <th>Status</th>
+            <th>Reason</th>
+        </tr>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
